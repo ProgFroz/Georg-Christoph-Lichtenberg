@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+
+
+
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
@@ -20,16 +24,33 @@
             android:title="Tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="News">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/news_schulltg"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="News Schulleitung" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/news_foerder"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="News Förderverein" />
+            <item
+                android:id="@+id/news_sv"
+                android:icon="@drawable/ic_menu_send"
+                android:title="News Schülervertretung" />
+        </menu>
+    </item>
+
+    <item android:title="Kontakt">
+        <menu>
+            <item
+                android:id="@+id/kontakt_anfahrt"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Anfahrt" />
+            <item
+                android:id="@+id/kontakt_formular"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Formular" />
         </menu>
     </item>
 
